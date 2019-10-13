@@ -11,9 +11,17 @@ h1 {
 
     &__photocontainer {
        position: relative;
+       display: flex;
        height: 300px;
-       width: 300px;
+       flex-basis: 25%;
        margin: 1em;
+    }
+
+    &__photoshape {
+        background-color: #FF0000;
+        height: 100px;
+        width: 100px;
+        align-self: flex-end;
     }
 
 

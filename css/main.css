@@ -7,9 +7,15 @@ h1 {
   flex-wrap: wrap; }
   .gallery__photocontainer {
     position: relative;
+    display: flex;
     height: 300px;
-    width: 300px;
+    flex-basis: 25%;
     margin: 1em; }
+  .gallery__photoshape {
+    background-color: #FF0000;
+    height: 100px;
+    width: 100px;
+    align-self: flex-end; }
   .gallery__photobox {
     position: absolute;
     top: 0;
