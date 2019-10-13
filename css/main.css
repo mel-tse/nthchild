@@ -23,3 +23,6 @@ h1 {
     object-position: center;
     -o-object-fit: cover;
     object-fit: cover; }
+
+div.gallery__photocontainer:nth-child(1) {
+  border: 2px solid red; }

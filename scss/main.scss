@@ -35,3 +35,7 @@ h1 {
     }
 
 }
+
+div.gallery__photocontainer:nth-child(1) { 
+    border: 2px solid red;
+}
