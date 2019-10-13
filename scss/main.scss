@@ -36,6 +36,11 @@ h1 {
 
 }
 
-div.gallery__photocontainer:nth-child(1) { 
-    border: 2px solid red;
+div.gallery__photocontainer:nth-child(1),
+div.gallery__photocontainer:nth-child(2) { 
+    width: 400px;
 }
+
+// div.gallery__photocontainer:nth-child(2) { 
+//     border: 2px solid green;
+// }
