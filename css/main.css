@@ -7,7 +7,8 @@ h1 {
   .gallery__photocontainer {
     position: relative;
     height: 300px;
-    width: 300px; }
+    width: 300px;
+    margin: 1em; }
   .gallery__photobox {
     position: absolute;
     top: 0;
