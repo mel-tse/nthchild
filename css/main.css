@@ -3,6 +3,7 @@ h1 {
 
 .gallery {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap; }
   .gallery__photocontainer {
     position: relative;
@@ -26,4 +27,4 @@ h1 {
 
 div.gallery__photocontainer:nth-child(1),
 div.gallery__photocontainer:nth-child(2) {
-  width: 400px; }
+  flex-basis: 40%; }
